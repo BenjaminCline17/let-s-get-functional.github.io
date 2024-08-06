@@ -39,11 +39,11 @@ var femaleCount = function(array) {
 
 var oldestCustomer = function(array) {
     let oldest = _.reduce(array, function(accumulator, current) {
-        if (current.age === age) {
-             
+        if (current.name === array.name) {
+             accumulator += 1;
         }
 
-    }, );
+    },);
     return oldest;
 }
 
